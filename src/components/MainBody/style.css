@@ -36,8 +36,6 @@
     height: 605px;
     top: 87px;
     right: 55px;
-    gap: 0px;
-    opacity: 0px;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
@@ -48,50 +46,4 @@
     padding: 80px 0px;
     background-color: rgba(255, 255, 255, 1);
     width: 100%;
-}
-
-@media (max-width: 768px) {
-    .main-body {
-        padding: 0 16px;
-        padding-bottom: 80px;
-    }
-
-    .hide-on-laptop {
-        display: block;
-    }
-
-    .hide-on-mobile {
-        display: none;
-    }
-
-    .slogan {
-        left: 0;
-        top: 80px;
-        width: 100%;
-    }
-
-    .slogan .slogan__text,
-    .slogan__text-white {
-        width: 100%;
-        overflow-wrap: break-word;
-    }
-
-    .slogan-button {
-        margin-top: 48px;
-    }
-
-    /* service */
-    .service,
-    .service-head {
-        width: 100%;
-    }
-
-    .service-wrapper__card {
-        width: 100%;
-        padding: 0;
-    }
-
-    .swiper_container {
-        position: relative;
-    }
 }

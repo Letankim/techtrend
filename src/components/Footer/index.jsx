@@ -29,22 +29,22 @@ function Footer(props) {
               <div className="footer__social">
                 <ul className="footer-social__list">
                   <li className="footer-social__item">
-                    <a href="#" className="footer-social__link">
+                    <a href="/" className="footer-social__link">
                       <img src={fa} alt="Social" />
                     </a>
                   </li>
                   <li className="footer-social__item">
-                    <a href="#" className="footer-social__link">
+                    <a href="/" className="footer-social__link">
                       <img src={instagram} alt="Social" />
                     </a>
                   </li>
                   <li className="footer-social__item">
-                    <a href="#" className="footer-social__link">
+                    <a href="/" className="footer-social__link">
                       <img src={tw} alt="Social" />
                     </a>
                   </li>
                   <li className="footer-social__item">
-                    <a href="#" className="footer-social__link">
+                    <a href="/" className="footer-social__link">
                       <img src={lm} alt="Social" />
                     </a>
                   </li>
@@ -57,16 +57,24 @@ function Footer(props) {
             <div className="footer__container">
               <ul className="footer__list-part">
                 <li className="footer__item-part">
-                  <a className="footer__link-part">About Us</a>
+                  <a className="footer__link-part" href="/">
+                    About Us
+                  </a>
                 </li>
                 <li className="footer__item-part">
-                  <a className="footer__link-part">Carrier</a>
+                  <a className="footer__link-part" href="/">
+                    Carrier
+                  </a>
                 </li>
                 <li className="footer__item-part">
-                  <a className="footer__link-part">We are hiring</a>
+                  <a className="footer__link-part" href="/">
+                    We are hiring
+                  </a>
                 </li>
                 <li className="footer__item-part">
-                  <a className="footer__link-part">Blog</a>
+                  <a className="footer__link-part" href="/">
+                    Blog
+                  </a>
                 </li>
               </ul>
             </div>
@@ -76,13 +84,19 @@ function Footer(props) {
             <div className="footer__container">
               <ul className="footer__list-part">
                 <li className="footer__item-part">
-                  <a className="footer__link-part">IOS & Android</a>
+                  <a className="footer__link-part" href="/">
+                    IOS & Android
+                  </a>
                 </li>
                 <li className="footer__item-part">
-                  <a className="footer__link-part">Watch a Demo</a>
+                  <a className="footer__link-part" href="/">
+                    Watch a Demo
+                  </a>
                 </li>
                 <li className="footer__item-part">
-                  <a className="footer__link-part">Partners</a>
+                  <a className="footer__link-part" href="/">
+                    Partners
+                  </a>
                 </li>
               </ul>
             </div>

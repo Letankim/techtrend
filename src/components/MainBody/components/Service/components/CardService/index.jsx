@@ -42,6 +42,13 @@ const CardService = ({ services }) => {
               clickable: true,
             },
           },
+          920: {
+            slidesPerView: 3,
+            pagination: {
+              el: ".swiper-pagination-custom",
+              clickable: true,
+            },
+          },
           1199.98: {
             slidesPerView: 4,
             pagination: {
