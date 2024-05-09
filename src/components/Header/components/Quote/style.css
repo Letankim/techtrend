@@ -1,0 +1,144 @@
+.quote {
+    position: absolute;
+    background-color: red;
+    padding: 24px 32px;
+    top: calc(100% + 19px);
+    right: 0;
+    border-radius: 0px 0px 8.46px 8.46px;
+    opacity: 0px;
+    background: rgba(1, 76, 152, 1);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.24);
+    transform: translateY(-100%);
+    transition: all 0.2s linear;
+    z-index: 999999999;
+}
+
+.quote.active {
+    animation: slideIn 1s ease forwards;
+}
+
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+.quote-wrapper {
+    width: 100%;
+}
+
+.quote-wrapper form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.quote__title {
+    font-family: "montserrat-bold", 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+
+}
+
+.quote-form__header {
+    width: 290px;
+    height: 33px;
+    padding: 3px 95px 2px 93px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.quote-form__header span {
+    display: block;
+    font-family: "montserrat-bold", 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: rgba(1, 76, 152, 1);
+
+}
+
+.quote-form__group {}
+
+.quote-form__input {
+    font-family: "montserrat-bold", 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    width: 290px;
+    height: 33px;
+    padding-left: 19px;
+    border: none;
+    outline: 1px solid rgba(255, 255, 255, 1);
+    background-color: transparent;
+    color: rgba(255, 255, 255, 1);
+}
+
+.quote-form__input::placeholder {
+    color: rgba(255, 255, 255, 1);
+}
+
+.quote-form__textarea {
+    font-family: "montserrat-bold", 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    width: 290px;
+    height: 125px;
+    padding-left: 19px;
+    outline: 1px solid rgba(255, 255, 255, 1);
+    background-color: transparent;
+    color: rgba(255, 255, 255, 1);
+}
+
+.quote-form__textarea::placeholder {
+    color: rgba(255, 255, 255, 1);
+}
+
+.quote-form__textarea:focus::placeholder {
+    color: transparent;
+}
+
+.btn.btn-full {
+    width: 290px;
+    height: 50px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    background: rgba(35, 166, 240, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.btn.btn-full .btn__text {
+    font-family: "montserrat-bold", 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+}
+
+.btn.btn-full.btn-done {
+    background-color: rgba(255, 255, 255, 1);
+    outline: 1px solid rgba(35, 166, 240, 1);
+    
+}
+
+.btn.btn-full.btn-done .btn__text {
+    color: rgba(35, 166, 240, 1);
+}

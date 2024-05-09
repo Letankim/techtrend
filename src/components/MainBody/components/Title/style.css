@@ -1,0 +1,23 @@
+.title-wrapper {}
+
+.title__text {
+    font-family: "montserrat-bold", 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: rgba(0, 16, 73, 1);
+}
+
+.title-wrapper span {
+    display: block;
+    font-family: "montserrat-bold", 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: rgba(113, 112, 116, 1);
+    margin-top: 28px;
+}

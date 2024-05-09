@@ -1,0 +1,90 @@
+.card__item {
+    width: 100%;
+}
+
+.card__container {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 7.28px;
+    padding: 31.85px 36.41px 0 36.41px;
+    box-shadow: 0px 11.83px 17.29px 0px rgba(0, 0, 0, 0.07);
+    cursor: pointer;
+}
+
+.card__container.active {
+    height: 100%;
+}
+
+.card__container:hover,
+.card__container:hover .card__icon img {
+    background-color: rgba(15, 144, 202, 1);
+}
+
+.card__container:hover .card__icon {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.card__icon {
+    width: 63.71px;
+    height: 69.17px;
+    padding: 20.02px 17.29px 20.02px 17.29px;
+    gap: 9.1px;
+    border-radius: 9.1px;
+    opacity: 0px;
+    background-color: rgba(15, 144, 202, 1);
+}
+
+.card__title {
+    margin: 18.2px 0;
+    width: 116px;
+    height: 44px;
+    font-family: "montserrat-bold", 'Courier New', Courier, monospace;
+    font-size: 14.56px;
+    font-weight: 700;
+    line-height: 21.84px;
+    letter-spacing: 0.09101283550262451px;
+    text-align: left;
+    color: rgba(37, 43, 66, 1);
+}
+
+
+.card_spacing {
+    width: 45.51px;
+    height: 1.82px;
+    background: rgba(216, 80, 18, 1);
+    margin-bottom: 18.2px;
+}
+
+.card__container:hover .card__title,
+.card__container:hover .card__description {
+    color: rgba(255, 255, 255, 1);
+}
+
+.card__description {
+    font-family: "montserrat-light", 'Courier New', Courier, monospace;
+    font-size: 12.74px;
+    font-weight: 400;
+    line-height: 18.2px;
+    letter-spacing: 0.18202567100524902px;
+    text-align: left;
+    color: rgba(115, 115, 115, 1);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.card__container.active .card__description {
+    height: 100%;
+    display: unset;
+}
+
+.card-arrow__down {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__container.active .card-arrow__down {
+    transform: rotate(180deg);
+}

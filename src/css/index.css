@@ -1,0 +1,101 @@
+:root {
+  --primary-color: #0F90CA;
+  --black-bold-text: #252B42;
+  --gray-text: #737373;
+  --green-text: #ACE5FF;
+  --white-text: #FFFFFF;
+  --main-button-background-color: rgba(15, 144, 202, 1);
+  --height-header: 90px;
+}
+
+@font-face {
+  font-family: "montserrat-bold";
+  src: url('../fonts/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "montserrat-light";
+  src: url('../fonts/Montserrat/static/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url('../fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "poppins-light";
+  src: url('../fonts/Poppins/Poppins-Light.ttf') format('truetype');
+}
+
+body {
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn {
+  text-align: center;
+  box-sizing: border-box;
+  min-width: 156px;
+  padding: 10px 20px;
+  background-color: var(--main-button-background-color);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn.btn-outline {
+  padding: 15px 25px;
+  border-radius: 40px;
+  gap: 15px;
+  outline: 1px solid rgba(1, 76, 152, 1);
+  background-color: #FFFFFF;
+}
+
+.btn.btn-outline .btn__text {
+  font-family: "montserrat-bold", 'Courier New', Courier, monospace;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: rgba(1, 76, 152, 1);
+}
+
+.btn .btn__text {
+  flex-wrap: nowrap;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  font-weight: 700;
+  font-family: "poppins", 'Courier New', Courier, monospace;
+  color: var(--white-text);
+}
+
+.btn.btn-outline .btn-wrapper__icon,
+.btn.btn-outline .btn__icon {
+  width: unset;
+  height: unset;
+  padding: unset;
+}
+
+.btn .btn-wrapper__icon {
+  width: 24px;
+  height: 24px;
+  padding: 2px;
+}
+
+.btn .btn__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 1);
+}

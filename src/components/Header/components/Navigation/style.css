@@ -1,0 +1,24 @@
+.navbar-basic {
+    flex: 1;
+    margin-left: 108px;
+}
+
+.navbar-basic .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 79px;
+}
+
+.navbar-basic .nav-link {
+    font-family: "montserrat-bold", 'Courier New', Courier, monospace;
+    transition: linear 0.25s;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.54);
+    line-height: 24px;
+}
+
+.navbar-basic .nav-link:hover,
+.navbar-basic .nav-item.active .nav-link {
+    color: #014C98;
+}

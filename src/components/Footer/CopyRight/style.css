@@ -1,0 +1,15 @@
+.copyright {
+    padding: 25px 0;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+.copyright h6 {
+    text-align: center;
+    font-family: "montserrat-bold", 'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    color: rgba(0, 16, 73, 1);
+}

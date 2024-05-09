@@ -1,0 +1,22 @@
+.swiper-on-laptop {
+    display: block;
+}
+
+.swipper-list-laptop {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.swipper-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .swiper-on-laptop {
+        display: none;
+    }
+
+    .swipper-mobile {
+        display: block;
+    }
+}
